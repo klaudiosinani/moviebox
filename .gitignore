@@ -1,0 +1,20 @@
+# logs
+*.log
+
+# OS
+.DS_Store
+
+# IDE
+.idea
+*.swp
+*.swo
+
+# compiled
+*.pyc
+dist
+__pycache__
+
+# dependencies
+.cache
+.ropeproject
+.ipynb_checkpoints
