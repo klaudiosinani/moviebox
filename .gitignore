@@ -10,9 +10,11 @@
 *.swo
 
 # compiled
-*.pyc
 dist
+build
+*.pyc
 __pycache__
+*.egg-info
 
 # dependencies
 .cache
