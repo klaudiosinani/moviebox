@@ -22,7 +22,7 @@ helpMessage = '''
     --search, -s             Search movie by ID
     --movie, -m              Input movie ID
     --plot, -p               Display movie plot
-    --interactive, -i        Display progress info
+    --interactive, -i        Display process info
     --recommendations, -r    Number of movie recommendations
     --version, -v            Display installed version
 
