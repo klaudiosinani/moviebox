@@ -5,7 +5,7 @@ from .data import searchMovie
 from .recommender import recommender
 from .output import displayHelpMessage, displayVersion
 
-movieboxVersion = '0.0.0'
+movieboxVersion = '0.1.0'
 
 
 @click.command(add_help_option=False)
