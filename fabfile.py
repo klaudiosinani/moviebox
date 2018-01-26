@@ -52,4 +52,4 @@ def start():
 def dist():
     check()
     # Build the source code
-    local('python3 setup.py sdist')
+    local('python3 setup.py sdist bdist_wheel')
