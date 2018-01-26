@@ -8,6 +8,7 @@ green = 'green'  # Green colored text
 yellow = 'yellow'  # Yellow colored text
 
 distDir = abspath('dist')  # Dist directory
+buildDir = abspath('build')  # Build directory
 eggDir = abspath('moviebox.egg-info')  # Egg directory
 
 if (exists(distDir)):
@@ -15,6 +16,11 @@ if (exists(distDir)):
     shutil.rmtree(distDir)
     print(colored('✔ Cleaned up ' + distDir, green))
 
+if (exists(buildDir)):
+    shutil.rmtree(buildDir)
+    print(colored('✔ Cleaned up ' + buildDir, green))
+
 if (exists(eggDir)):
+    # Check if the `egg` directory exists
     shutil.rmtree(eggDir)
     print(colored('✔ Cleaned up ' + eggDir, green))
