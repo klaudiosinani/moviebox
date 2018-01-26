@@ -1,12 +1,15 @@
+import sys
 import time
 import pandas as pd
 
-from .output import printGreen
 from os.path import join, dirname
+from .output import prettyPrint, printRed, printGreen
 
 parentPath = dirname(__file__)  # Relative path to parent directory
 moviesCSVPath = join(parentPath,
                      'dataset/movies.csv')  # Path to movies dataset
+
+yellow = 'yellow'  # Yellow colored text
 
 
 def importData(verbose):
@@ -31,3 +34,23 @@ def splitData(moviesDF, verbose):
         printGreen('✔ Split Data\t\t{0:.1f}s'.format(time.time() - start))
     # Pack and return the split data
     return {'titles': titles, 'categories': categories, 'plots': plots}
+
+
+def searchMovie(movieID):
+    # Search a movie title by ID
+    data = importData(verbose=False)
+    dataset = splitData(data, verbose=False)
+    # Check whether the input ID is valid
+    if not (isinstance(movieID, int) and movieID >= 0 and movieID <= 4999):
+        printRed('Invalid value for movie ID: "' + str(movieID) + '"')
+        printRed('Input is not a valid Natural number between [0, 4999]')
+        sys.exit(1)
+    else:
+        # Display the search result
+        prettyPrint(
+            movieID=movieID,
+            title=dataset['titles'][movieID],
+            category=dataset['categories'][movieID],
+            plot=dataset['plots'][movieID],
+            color=yellow,
+            showPlots=False)
