@@ -24,8 +24,6 @@ def trainEngine(plots, verbose):
 
 def getSimilarities(id, recommendations, plotsTFIDF, verbose):
     start = time.time()
-    # Cast to integer
-    id = int(id)
     # Generate cosine similarities
     cosineSimilarities = linear_kernel(plotsTFIDF, plotsTFIDF)
     # Get similarity scores for the input movie
