@@ -1,6 +1,6 @@
-from .data import importData, splitData
+from .data import importData, splitData, validateInput
 from .tfidf import trainEngine, getSimilarities
-from .output import printYellow, printGreen, prettyPrint, validateInput
+from .output import printYellow, printGreen, prettyPrint
 
 green = 'green'  # Green colored text
 yellow = 'yellow'  # Yellow-colored text
