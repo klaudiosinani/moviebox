@@ -1,0 +1,12 @@
+termcolor==1.1.0
+fabric3==1.13.1.post1
+pandas==0.21.1
+click==6.2
+colorama==0.3.9
+setuptools==38.4.0
+Fabric==1.14.0
+scikit_learn==0.19.1
+flake8==3.5.0
+yapf==0.20.0
+scipy==1.0.0
+fclear==0.1.0
