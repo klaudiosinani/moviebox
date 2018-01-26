@@ -9,7 +9,7 @@ Moviebox
 🎥 Machine learning movie recommender
 </h4>
 
-[![Build Status](https://travis-ci.org/klauscfhq/moviebox.svg?branch=master)](https://travis-ci.org/klauscfhq/moviebox)
+[![Build Status](https://travis-ci.org/klauscfhq/moviebox.svg?branch=master)](https://travis-ci.org/klauscfhq/moviebox) [![Python](https://img.shields.io/badge/python-3-brightgreen.svg)](https://pypi.org/project/moviebox/) [![PyPi](https://img.shields.io/pypi/v/moviebox.svg)](https://pypi.org/project/moviebox/)
 
 ## Contents
 
