@@ -51,6 +51,7 @@ $ moviebox --help
 
   Options
     --help, -h               Display help message
+    --search, -s             Search movie by ID
     --movie, -m              Input movie ID
     --plot, -p               Display movie plot
     --interactive, -i        Display process info
@@ -59,6 +60,7 @@ $ moviebox --help
 
   Examples
     $ moviebox --help
+    $ moviebox --search
     $ moviebox --movie 2874
     $ moviebox -m 2874 --recommendations 3
     $ moviebox -m 2874 -r 3 --plot
