@@ -1,5 +1,4 @@
 import re
-import sys
 
 from colorama import init
 from termcolor import colored
@@ -65,20 +64,6 @@ def prettyPrint(movieID, title, category, plot, color, showPlots):
     print(colored('  Categories: ' + prettyCategory + '\n', color))
     if (showPlots):
         print(colored('  Plot:\n' + plot + '\n', color))
-
-
-def validateInput(movieID, recommendationsNumber):
-    if not (isinstance(movieID, int) and movieID >= 0 and movieID <= 4999):
-        printRed('Invalid value for movie ID: "' + str(movieID) + '"')
-        printRed('Input is not a valid Natural number between [0, 4999]')
-        sys.exit(1)
-    if not (isinstance(recommendationsNumber, int)
-            and recommendationsNumber >= 1 and recommendationsNumber <= 30):
-        printRed('Invalid value for recommendations number: "' +
-                 str(recommendationsNumber) + '"')
-        printRed('Input is not a valid Natural number between [1, 30]')
-        sys.exit(1)
-    return 0
 
 
 def displayHelpMessage():
