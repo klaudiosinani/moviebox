@@ -53,20 +53,19 @@ def validateInput(movieID, recommendationsNumber):
 
 
 def searchMovie(movieID):
-    # Search a movie title by ID
-    data = importData(verbose=False)
-    dataset = splitData(data, verbose=False)
     # Check whether the input ID is valid
     if not (isinstance(movieID, int) and movieID >= 0 and movieID <= 4999):
         printRed('Invalid value for movie ID: "' + str(movieID) + '"')
         printRed('Input is not a valid integer between [0, 4999]')
         sys.exit(1)
-    else:
-        # Display the search result
-        prettyPrint(
-            movieID=movieID,
-            title=dataset['titles'][movieID],
-            category=dataset['categories'][movieID],
-            plot=dataset['plots'][movieID],
-            color=yellow,
-            showPlots=False)
+    # Search a movie title by ID
+    data = importData(verbose=False)
+    dataset = splitData(data, verbose=False)
+    # Display the search result
+    prettyPrint(
+        movieID=movieID,
+        title=dataset['titles'][movieID],
+        category=dataset['categories'][movieID],
+        plot=dataset['plots'][movieID],
+        color=yellow,
+        showPlots=False)
