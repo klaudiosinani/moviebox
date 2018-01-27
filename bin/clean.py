@@ -17,6 +17,7 @@ if (exists(distDir)):
     print(colored('✔ Cleaned up ' + distDir, green))
 
 if (exists(buildDir)):
+    # Check if the `build` directory exists
     shutil.rmtree(buildDir)
     print(colored('✔ Cleaned up ' + buildDir, green))
 
