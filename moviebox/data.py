@@ -36,12 +36,16 @@ def splitData(moviesDF, verbose):
     return {'titles': titles, 'categories': categories, 'plots': plots}
 
 
-def validateInput(movieID, recommendationsNumber):
+def validateMovieID(movieID):
     # Check whether the input ID is valid
     if not (isinstance(movieID, int) and movieID >= 0 and movieID <= 4999):
         printRed('Invalid value for movie ID: "' + str(movieID) + '"')
         printRed('Input is not a valid integer between [0, 4999]')
         sys.exit(1)
+    return 0
+
+
+def validateRecommendations(recommendationsNumber):
     # Check whether the recommendations number is valid
     if not (isinstance(recommendationsNumber, int)
             and recommendationsNumber >= 1 and recommendationsNumber <= 30):
@@ -52,12 +56,16 @@ def validateInput(movieID, recommendationsNumber):
     return 0
 
 
+def validateInput(movieID, recommendationsNumber):
+    # Check whether the user input is valid
+    validateMovieID(movieID)
+    validateRecommendations(recommendationsNumber)
+    return 0
+
+
 def searchMovie(movieID):
     # Check whether the input ID is valid
-    if not (isinstance(movieID, int) and movieID >= 0 and movieID <= 4999):
-        printRed('Invalid value for movie ID: "' + str(movieID) + '"')
-        printRed('Input is not a valid integer between [0, 4999]')
-        sys.exit(1)
+    validateMovieID(movieID)
     # Search a movie title by ID
     data = importData(verbose=False)
     dataset = splitData(data, verbose=False)
