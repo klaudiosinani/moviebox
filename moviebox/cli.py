@@ -11,10 +11,7 @@ movieboxVersion = '0.1.0'
 @click.command(add_help_option=False)
 @click.option('-m', '--movie', default=2874, help='Input movie ID')
 @click.option(
-    '-r',
-    '--recommendations',
-    default=3,
-    help='Number of movie recommendations')
+    '-r', '--recommend', default=3, help='Number of movie recommendations')
 @click.option(
     '-p', '--plot', is_flag=True, default=False, help='Display movie plot')
 @click.option(
@@ -33,7 +30,7 @@ movieboxVersion = '0.1.0'
     '-h', '--help', is_flag=True, default=False, help='Display help message')
 @click.option(
     '-s', '--search', is_flag=True, default=False, help='Search movie by ID')
-def main(movie, recommendations, plot, interactive, help, version, search):
+def main(movie, recommend, plot, interactive, help, version, search):
     if (help):
         displayHelpMessage()
         sys.exit(0)
@@ -47,7 +44,7 @@ def main(movie, recommendations, plot, interactive, help, version, search):
             else:
                 recommender(
                     movieID=movie,
-                    recommendationsNumber=recommendations,
+                    recommendationsNumber=recommend,
                     showPlots=plot,
                     interactive=interactive)
 
