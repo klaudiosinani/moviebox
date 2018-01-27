@@ -56,6 +56,15 @@ def validateRecommendations(recommendationsNumber):
     return 0
 
 
+def validateLength(length):
+    # Check whether the list length is valid
+    if not (isinstance(length, int) and length >= 1 and length <= 5000):
+        printRed('Invalid value for list length: "' + str(length) + '"')
+        printRed('Input is not a valid integer between [1, 5000]')
+        sys.exit(1)
+    return 0
+
+
 def validateInput(movieID, recommendationsNumber):
     # Check whether the user input is valid
     validateMovieID(movieID)
@@ -77,3 +86,20 @@ def searchMovie(movieID):
         plot=dataset['plots'][movieID],
         color=yellow,
         showPlots=False)
+
+
+def listMovies(length):
+    # Check whether the input length is valid
+    validateLength(length)
+    # Import and parse the datasets
+    data = importData(verbose=False)
+    dataset = splitData(data, verbose=False)
+    # Display the movie list
+    for i in range(length):
+        prettyPrint(
+            movieID=i,
+            title=dataset['titles'][i],
+            category=dataset['categories'][i],
+            plot=dataset['plots'][i],
+            color=yellow,
+            showPlots=False)

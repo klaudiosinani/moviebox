@@ -1,8 +1,8 @@
 import sys
 import click
 
-from .data import searchMovie
 from .recommender import recommender
+from .data import searchMovie, listMovies
 from .output import displayHelpMessage, displayVersion
 
 movieboxVersion = '0.1.0'
@@ -30,7 +30,9 @@ movieboxVersion = '0.1.0'
     '-h', '--help', is_flag=True, default=False, help='Display help message')
 @click.option(
     '-s', '--search', is_flag=True, default=False, help='Search movie by ID')
-def main(movie, recommend, plot, interactive, help, version, search):
+@click.option(
+    '-l', '--list', is_flag=True, default=False, help='List movie titles')
+def main(movie, recommend, plot, interactive, help, version, search, list):
     if (help):
         displayHelpMessage()
         sys.exit(0)
@@ -42,11 +44,16 @@ def main(movie, recommend, plot, interactive, help, version, search):
                 searchID = click.prompt('❯ Please enter a Movie ID', type=int)
                 searchMovie(movieID=searchID)
             else:
-                recommender(
-                    movieID=movie,
-                    recommendationsNumber=recommend,
-                    showPlots=plot,
-                    interactive=interactive)
+                if (list):
+                    listLength = click.prompt(
+                        '❯ Number of Movies to list', type=int)
+                    listMovies(length=listLength)
+                else:
+                    recommender(
+                        movieID=movie,
+                        recommendationsNumber=recommend,
+                        showPlots=plot,
+                        interactive=interactive)
 
 
 if __name__ == '__main__':
