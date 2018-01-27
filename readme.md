@@ -50,19 +50,19 @@ $ moviebox --help
     $ moviebox [<options> ...]
 
   Options
-    --help, -h               Display help message
-    --search, -s             Search movie by ID
-    --movie, -m              Input movie ID
-    --plot, -p               Display movie plot
-    --interactive, -i        Display process info
-    --recommendations, -r    Number of movie recommendations
-    --version, -v            Display installed version
+    --help, -h              Display help message
+    --search, -s            Search movie by ID
+    --movie, -m <int>       Input movie ID [Can be any integer 0-4999]
+    --plot, -p              Display movie plot
+    --interactive, -i       Display process info
+    --recommend, -r <int>   Number of recommendations [Can be any integer 1-30]
+    --version, -v           Display installed version
 
   Examples
     $ moviebox --help
     $ moviebox --search
     $ moviebox --movie 2874
-    $ moviebox -m 2874 --recommendations 3
+    $ moviebox -m 2874 --recommend 3
     $ moviebox -m 2874 -r 3 --plot
     $ moviebox -m 2874 -r 3 -p --interactive
 ```
