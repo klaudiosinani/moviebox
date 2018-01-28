@@ -5,7 +5,7 @@ longDescription = open(join(dirname(__file__), 'readme.md')).read()
 
 setup(
     name='moviebox',
-    version='0.1.0',
+    version='0.2.0',
     url='https://github.com/klauscfhq/moviebox',
     license='MIT',
     author='Klaus Sinani',
