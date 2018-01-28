@@ -55,6 +55,7 @@ $ moviebox --help
     --movie, -m <int>       Input movie ID [Can be any integer 0-4999]
     --plot, -p              Display movie plot
     --interactive, -i       Display process info
+    --list, -l              List available movie titles
     --recommend, -r <int>   Number of recommendations [Can be any integer 1-30]
     --version, -v           Display installed version
 
