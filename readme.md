@@ -1,13 +1,16 @@
 <h1 align="center">
-Moviebox
-  <a href="https://github.com/klauscfhq/moviebox">
-    <img src="media/header.png" alt="Moviebox" width="90%">
-  </a>
+  <img src="media/logo.png" width="25%"><br/>Moviebox
 </h1>
 
 <h4 align="center">
-🎥 Machine learning movie recommender
+  🎥 Machine learning movie recommender
 </h4>
+
+<div align="center">
+  <a href="https://github.com/klauscfhq/moviebox">
+    <img src="media/header.png" alt="Moviebox" width="90%">
+  </a>
+</div>
 
 [![Build Status](https://travis-ci.org/klauscfhq/moviebox.svg?branch=master)](https://travis-ci.org/klauscfhq/moviebox) [![Python](https://img.shields.io/badge/python-3-brightgreen.svg)](https://pypi.org/project/moviebox/) [![PyPi](https://img.shields.io/pypi/v/moviebox.svg)](https://pypi.org/project/moviebox/)
 
