@@ -6,7 +6,7 @@ green = 'green'  # Green colored text
 yellow = 'yellow'  # Yellow-colored text
 
 
-def recommender(movieID, recommendationsNumber, showPlots, interactive):
+def recommender(movieID=2874, recommendationsNumber, showPlots, interactive):
     # Validate the user input
     validateInput(movieID, recommendationsNumber)
     # Import the data
