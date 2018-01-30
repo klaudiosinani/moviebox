@@ -103,7 +103,7 @@ recommender(
 
 - Optional: `True`
 
-Input movie ID. Any natural number between `[0, 4999]` can be selected.
+Input movie ID. Any integer between `[0, 4999]` can be selected.
 
 #### `recommendationsNumber`
 
@@ -113,7 +113,7 @@ Input movie ID. Any natural number between `[0, 4999]` can be selected.
 
 - Optional: `True`
 
-Number of movie recommendations to be generated. Any natural number between `[1, 30]` can be selected.
+Number of movie recommendations to be generated. Any integer between `[1, 30]` can be selected.
 
 #### `showPlots`
 
