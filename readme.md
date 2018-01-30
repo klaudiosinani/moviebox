@@ -91,7 +91,7 @@ recommender(
 
 ## API
 
-#### recommender`(movieID, recommendationsNumber, showPlots, interactive)`
+### recommender`(movieID, recommendationsNumber, showPlots, interactive)`
 
 **E.g.** `recommender(movieID=2874, recommendationsNumber=3, showPlots=True, interactive=True)`
 
