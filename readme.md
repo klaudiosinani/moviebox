@@ -99,7 +99,9 @@ recommender(
 
 - Type: `Integer`
 
-- Optional: `False`
+- Default Value: `2874`
+
+- Optional: `True`
 
 Input movie ID. Any integer between `[0, 4999]` can be selected.
 
@@ -107,7 +109,9 @@ Input movie ID. Any integer between `[0, 4999]` can be selected.
 
 - Type: `Integer`
 
-- Optional: `False`
+- Default Value: `3`
+
+- Optional: `True`
 
 Number of movie recommendations to be generated. Any integer between `[1, 30]` can be selected.
 
@@ -115,7 +119,9 @@ Number of movie recommendations to be generated. Any integer between `[1, 30]` c
 
 - Type: `Boolean`
 
-- Optional: `False`
+- Default Value: `False`
+
+- Optional: `True`
 
 Display the plot summary of each recommended movie.
 
@@ -123,7 +129,9 @@ Display the plot summary of each recommended movie.
 
 - Type: `Boolean`
 
-- Optional: `False`
+- Default Value: `False`
+
+- Optional: `True`
 
 Display process-related information while running.
 
