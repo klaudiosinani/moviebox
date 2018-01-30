@@ -9,7 +9,7 @@ yellow = 'yellow'  # Yellow-colored text
 def recommender(movieID=2874,
                 recommendationsNumber=3,
                 showPlots=False,
-                interactive):
+                interactive=False):
     # Validate the user input
     validateInput(movieID, recommendationsNumber)
     # Import the data
