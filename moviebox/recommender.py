@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from .data import importData, splitData, validateInput
 from .tfidf import trainEngine, getSimilarities
 from .output import printYellow, printGreen, prettyPrint
