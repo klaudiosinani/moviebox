@@ -36,4 +36,4 @@ def start():
 def dist():
 
     # Build the source code
-    local('python setup.py sdist bdist_wheel')
+    local('python setup.py sdist bdist_wheel --universal')
