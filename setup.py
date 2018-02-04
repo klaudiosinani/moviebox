@@ -1,12 +1,15 @@
 # -*- coding: utf-8 -*-
+import moviebox
+
 from setuptools import setup
 from os.path import join, dirname
 
+movieboxVersion = moviebox.__version__
 longDescription = open(join(dirname(__file__), 'readme.md')).read()
 
 setup(
     name='moviebox',
-    version='0.2.1',
+    version=movieboxVersion,
     url='https://github.com/klauscfhq/moviebox',
     license='MIT',
     author='Klaus Sinani',
