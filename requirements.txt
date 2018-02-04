@@ -1,5 +1,6 @@
 termcolor==1.1.0
-fabric3==1.13.1.post1
+fabric3==1.13.1.post1; python_version >= '3'
+fabric==1.14.0; python_version < '3'
 pandas==0.21.1
 click==6.2
 colorama==0.3.9
