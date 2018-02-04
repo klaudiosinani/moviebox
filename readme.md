@@ -139,7 +139,7 @@ Display process-related information while running.
 
 - [Clone](https://help.github.com/articles/cloning-a-repository/) this repository to your local machine
 - Navigate to your clone `cd moviebox`
-- Install the dependencies `fab i`/`pip3 install -r requirements.txt`
+- Install the dependencies `fab install` or `pip install -r requirements.txt`
 - Check for errors `fab test`
 - Run the API `fab start`
 - Build the package `fab dist`
