@@ -36,7 +36,7 @@ The nature of the project is heavily educational.
 
 ## Install
 
-**`Python 3+`** is required to install or build the code. Support for **`Python 2+`** will be added soon.
+**`Python 2.7+`** or **`Python 3.4+`** is required to install or build the code.
 
 ```
 pip3 install moviebox
