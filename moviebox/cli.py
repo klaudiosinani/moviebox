@@ -2,11 +2,12 @@
 import sys
 import click
 
+from . import __version__
 from .recommender import recommender
 from .data import searchMovie, listMovies
 from .output import displayHelpMessage, displayVersion
 
-movieboxVersion = '0.2.1'
+movieboxVersion = __version__
 
 
 @click.command(add_help_option=False)
