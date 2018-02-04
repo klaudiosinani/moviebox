@@ -12,7 +12,7 @@
   </a>
 </div>
 
-[![Build Status](https://travis-ci.org/klauscfhq/moviebox.svg?branch=master)](https://travis-ci.org/klauscfhq/moviebox) [![Python](https://img.shields.io/badge/python-3-brightgreen.svg)](https://pypi.org/project/moviebox/) [![Code Style](https://img.shields.io/badge/code%20style-pep8-brightgreen.svg)](https://github.com/klauscfhq/moviebox) [![PyPi](https://img.shields.io/pypi/v/moviebox.svg)](https://pypi.org/project/moviebox/)
+[![Build Status](https://travis-ci.org/klauscfhq/moviebox.svg?branch=master)](https://travis-ci.org/klauscfhq/moviebox) [![Python](https://img.shields.io/badge/python-2.7-brightgreen.svg)](https://pypi.org/project/moviebox/) [![Python](https://img.shields.io/badge/python-3.4-brightgreen.svg)](https://pypi.org/project/moviebox/) [![Code Style](https://img.shields.io/badge/code%20style-pep8-brightgreen.svg)](https://github.com/klauscfhq/moviebox) [![PyPi](https://img.shields.io/pypi/v/moviebox.svg)](https://pypi.org/project/moviebox/)
 
 ## Contents
 
