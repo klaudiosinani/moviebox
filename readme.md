@@ -48,8 +48,6 @@ Initially, a natural number, that corresponds to the ID of a unique movie title,
 
 The [dataset](moviebox/dataset/movies.csv) in use is a random subset of the [Carnegie Mellon Movie Summary Corpus](http://www.cs.cmu.edu/~ark/movie$-data/), and it consists of `5000` movie titles along with their respective categories and plots.
 
-The nature of the project is heavily educational.
-
 ## Install
 
 ```
@@ -162,6 +160,8 @@ Display process-related information while running.
 - Cleanup compiled files `fab clean`
 
 ## Team
+
+Coded with ❤ by
 
 - Mario Sinani ([@mariocfhq](https://github.com/mariocfhq))
 - Klaus Sinani ([@klauscfhq](https://github.com/klauscfhq))
