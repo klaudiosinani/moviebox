@@ -17,16 +17,10 @@
     <img alt="Build Status" src="https://travis-ci.org/klauscfhq/moviebox.svg?branch=master">
   </a>
   <a href="https://pypi.org/project/moviebox/">
-    <img alt="Python" src="https://img.shields.io/badge/python-2.7-brightgreen.svg">
-  </a>
-  <a href="https://pypi.org/project/moviebox/">
     <img alt="Python" src="https://img.shields.io/badge/python-3.4-brightgreen.svg">
   </a>
-  <a href="https://github.com/klauscfhq/moviebox">
-    <img alt="Code Style" src="https://img.shields.io/badge/code%20style-pep8-brightgreen.svg">
-  </a>
   <a href="https://pypi.org/project/moviebox/">
-    <img alt="npm" src="https://img.shields.io/pypi/v/moviebox.svg">
+    <img alt="Python" src="https://img.shields.io/badge/python-2.7-brightgreen.svg">
   </a>
 </p>
 
