@@ -79,6 +79,8 @@ $ moviebox --help
     $ moviebox -m 2874 -r 3 -p --interactive
 ```
 
+To see all movies with corresponding ID's, take a look [at this list](moviebox/datasets/movie-titles.csv).
+
 ## Usage
 
 ```python
