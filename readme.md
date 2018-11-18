@@ -7,14 +7,14 @@
 </h4>
 
 <div align="center">
-  <a href="https://github.com/klauscfhq/moviebox">
+  <a href="https://github.com/klaussinani/moviebox">
     <img src="media/header.png" alt="Moviebox" width="90%">
   </a>
 </div>
 
 <p align="center">
-  <a href="https://travis-ci.org/klauscfhq/moviebox">
-    <img alt="Build Status" src="https://travis-ci.org/klauscfhq/moviebox.svg?branch=master">
+  <a href="https://travis-ci.org/klaussinani/moviebox">
+    <img alt="Build Status" src="https://travis-ci.org/klaussinani/moviebox.svg?branch=master">
   </a>
   <a href="https://pypi.org/project/moviebox/">
     <img alt="Python" src="https://img.shields.io/badge/python-3.4-brightgreen.svg">
@@ -160,8 +160,8 @@ Display process-related information while running.
 Coded with ❤ by
 
 - Mario Sinani ([@mariocfhq](https://github.com/mariocfhq))
-- Klaus Sinani ([@klauscfhq](https://github.com/klauscfhq))
+- Klaus Sinani ([@klaussinani](https://github.com/klaussinani))
 
 ## License
 
-[MIT](https://github.com/klauscfhq/moviebox/blob/master/license.md)
+[MIT](https://github.com/klaussinani/moviebox/blob/master/license.md)
