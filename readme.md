@@ -157,9 +157,7 @@ Display process-related information while running.
 
 ## Team
 
-Coded with ❤ by
-
-- Mario Sinani ([@mariocfhq](https://github.com/mariocfhq))
+- Mario Sinani ([@mario-sinani](https://github.com/mario-sinani))
 - Klaus Sinani ([@klaussinani](https://github.com/klaussinani))
 
 ## License
