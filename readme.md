@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  🎥 Machine learning movie recommender
+  Machine learning movie recommending system
 </h4>
 
 <div align="center">
@@ -55,7 +55,7 @@ pip install moviebox
 ```
 $ moviebox --help
 
-  🎥 Machine learning movie recommender
+  Machine learning movie recommender
 
   Usage
     $ moviebox [<options> ...]
