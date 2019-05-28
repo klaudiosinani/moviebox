@@ -55,7 +55,7 @@ pip install moviebox
 ```
 $ moviebox --help
 
-  Machine learning movie recommender
+  Machine learning movie recommending system
 
   Usage
     $ moviebox [<options> ...]
