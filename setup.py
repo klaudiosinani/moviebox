@@ -10,10 +10,10 @@ longDescription = open(join(dirname(__file__), 'readme.md')).read()
 setup(
     name='moviebox',
     version=movieboxVersion,
-    url='https://github.com/klaussinani/moviebox',
+    url='https://github.com/klaudiosinani/moviebox',
     license='MIT',
-    author='Klaus Sinani',
-    author_email='klaussinani@gmail.com',
+    author='Klaudio Sinani',
+    author_email='klaudiosinani@protonmail.ch',
     description='Machine learning movie recommender',
     long_description=longDescription,
     include_package_data=True,
