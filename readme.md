@@ -1,5 +1,9 @@
+<div align="center">
+  <img src="media/logo.png" width="25%">
+</div>
+
 <h1 align="center">
-  <img src="media/logo.png" width="25%"><br/>Moviebox
+  Moviebox
 </h1>
 
 <h4 align="center">
@@ -7,22 +11,8 @@
 </h4>
 
 <div align="center">
-  <a href="https://github.com/klaussinani/moviebox">
-    <img src="media/header.png" alt="Moviebox" width="90%">
-  </a>
+  <img src="media/header.png" alt="Moviebox" width="90%">
 </div>
-
-<p align="center">
-  <a href="https://travis-ci.org/klaussinani/moviebox">
-    <img alt="Build Status" src="https://travis-ci.org/klaussinani/moviebox.svg?branch=master">
-  </a>
-  <a href="https://pypi.org/project/moviebox/">
-    <img alt="Python" src="https://img.shields.io/badge/python-3.4-brightgreen.svg">
-  </a>
-  <a href="https://pypi.org/project/moviebox/">
-    <img alt="Python" src="https://img.shields.io/badge/python-2.7-brightgreen.svg">
-  </a>
-</p>
 
 <div align="center">
   <br>
@@ -59,7 +49,7 @@ The [dataset](moviebox/dataset/movies.csv) in use is a random subset of the [Car
 
 ## Install
 
-```
+```bash
 pip install moviebox
 ```
 
@@ -67,7 +57,7 @@ pip install moviebox
 
 ## CLI
 
-```
+```bash
 $ moviebox --help
 
   Machine learning movie recommending system
@@ -183,4 +173,4 @@ A big thank you to all the people and companies supporting our Open Source work:
 
 ## License
 
-[MIT](https://github.com/klaussinani/moviebox/blob/master/license.md)
+[MIT](https://github.com/klaudiosinani/moviebox/blob/master/license.md)
