@@ -12,6 +12,7 @@
 
 ## Contents
 
+- [Statement from the Authors](#statement-from-the-authors)
 - [Description](#description)
 - [CLI](#cli)
 - [Usage](#usage)
@@ -19,6 +20,10 @@
 - [Development](#development)
 - [Team](#team)
 - [License](#license)
+
+## Statement from the Authors
+
+Moviebox is a software implementation of academic research nature authored by [Mario Sinani](https://github.com/mario-sinani) and [Klaudio Sinani](https://github.com/klaudiosinani), published on the GitHub.com public domain on [January 23, 2018](https://github.com/klaudiosinani/moviebox/commits/master/?after=f21fcee45d565584128d10ee1f86518d9748bf98+69), and the PyPI.org public registry on [January 26, 2018](https://pypi.org/project/moviebox/#history), under the [MIT](https://github.com/klaudiosinani/moviebox/blob/master/license.md) license.
 
 ## Description
 
@@ -143,7 +148,7 @@ Display process-related information while running.
 
 ## Team
 
-- Mario Sinani ([@mariosinani](https://github.com/mariosinani))
+- Mario Sinani ([@mario-sinani](https://github.com/mario-sinani))
 - Klaudio Sinani ([@klaudiosinani](https://github.com/klaudiosinani))
 
 ## License
